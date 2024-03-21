@@ -9,15 +9,19 @@ const Buscador = ({ setFiltro }) => {
   };
 
   return (
-    <div className="mb-3">
+    <div className='buscador'>
+       <div className="mb-3">
       <input
         type="text"
         className="form-control"
-        placeholder="Buscar colaborador..."
+        placeholder="Buscar"
         value={busqueda}
         onChange={handleChange}
       />
     </div>
+
+    </div>
+   
   );
 };
 
