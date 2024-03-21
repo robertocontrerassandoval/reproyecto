@@ -6,7 +6,7 @@ import Formulario from './componentes/Formulario';
 import Listado from './componentes/Listado';
 import { BaseColaboradores } from './BaseColaboradores';
 
-
+// ejemplo de app
 function App() {
   const [colaboradores, setColaboradores] = useState(BaseColaboradores);
   const [alerta, setAlerta] = useState({ mensaje: ''});
